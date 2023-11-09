@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(188, 140, 140);
+    font-family: sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height:  450px;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(44, 44, 44, 0.7);
+    left:50% ;
+
+}
+
+.header-card{
+    height: 150px;
+}
+.header-card img{
+    width: 100%;
+    border-radius:15px 15px 0 0;
+    height: 100%;
+}
+.card-logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 156px;
+    transform: translate(-50%, -50%);
+}
+.card-title-name{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    width: 100%;
+}
+.card-title-name h1{
+    font-weight: 550;
+}
+.card-text-span{
+    position: absolute;
+    top: 245px;
+    text-align: center;
+    width: 100%;
+   color: gray;
+   font-style: italic; 
+}
+.card-btn-follow{
+    position: absolute;
+    width: 100%;
+    top: 260px;
+}
+.follow{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-text-p{
+    text-align: justify;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
+}
